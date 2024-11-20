@@ -44,8 +44,16 @@ public class Compte {
 		}
 	}
 	public void transfererVers(double mt,Compte c) {
-		this.retirer(mt);
-		c.deposer(mt);
+		if(this.solde>=mt && mt>0){
+			this.retirer(mt);
+			c.deposer(mt);
+		}else{
+			if(this.solde<mt){
+				System.out.println("Solde insuffisant pour transfert du montant de "+mt+" DH demander.");
+			}else{
+				System.out.println("Montant invalide pour le transfert.");
+			}
+		}
 	}
 
 }
