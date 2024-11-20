@@ -1,0 +1,7 @@
+import java.applet.Applet;
+
+public class FirstApplet extends Applet {
+	public void init() {
+		add(new label("Nom:"));
+	}
+}

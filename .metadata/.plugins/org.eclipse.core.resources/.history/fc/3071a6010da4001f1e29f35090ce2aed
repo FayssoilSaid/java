@@ -1,0 +1,12 @@
+package classeObjet;
+
+class A {
+	public String f(B obj) {
+		return ("A et B");
+	}
+}
+
+class B extends A{
+	
+}
+

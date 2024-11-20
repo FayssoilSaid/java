@@ -1,0 +1,29 @@
+package exercice5;
+
+public class TestCompte {
+
+	public static void main(String[] args) {
+		//création des clients
+		Client clt1=new Client("Fayssoil","D007930U");
+		Client clt2=new Client("Ammar","M007930K");
+		System.out.println("------------------");
+		//création des comptes
+		System.out.println("------------------");
+		//afficher les comptes
+		System.out.println("------------------");
+		//Dépot
+		System.out.println("------------------");
+		//Retrait
+		
+		System.out.println("------------------");
+		//Transfert
+		System.out.println("------------------");
+		//Différence des soldes
+		System.out.println("------------------");
+		//Permutation des comptes
+		System.out.println("------------------");
+		//Afficher les comptes après permutation
+
+	}
+
+}

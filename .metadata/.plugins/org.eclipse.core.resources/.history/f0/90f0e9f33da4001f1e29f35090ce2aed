@@ -1,0 +1,16 @@
+package exercice4;
+
+public class Point {
+	private double x,y;
+	static int cpt=0;
+	int num;
+	public Point() {
+		this.x=Math.random()*10;
+		this.y=Math.random()*10;
+	}
+	public Point(double x, double y) {
+		this.x=x;
+		this.y=y;
+		this.num=++cpt;
+	}
+}

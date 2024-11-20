@@ -1,0 +1,11 @@
+package exercice2;
+
+ class Vecteur3d {
+	double x,y,z;
+	
+	Public Vecteur3d(double x,double y,double z) {
+		this.x=x;
+		this.y=y;
+		this.z=y;
+	}
+}

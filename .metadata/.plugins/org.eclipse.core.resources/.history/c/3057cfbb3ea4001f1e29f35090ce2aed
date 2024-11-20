@@ -1,0 +1,11 @@
+package exercice4;
+
+public class TestTriangle {
+
+	public static void main(String[] args) {
+		Point p1=new Point();
+		System.out.println(Point.nbr_Point());
+
+	}
+
+}

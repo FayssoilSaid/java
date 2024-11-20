@@ -1,0 +1,10 @@
+package constructeur;
+
+public class TestConstructeur {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,5 @@
+import java.applet.*;
+
+public class FirstApplet extends Applet {
+
+}
