@@ -25,7 +25,7 @@ public class TestCompte {
 		compte1.retirer(500);
 		//Transfert
 		System.out.println("------------------");
-		compte1.transfererVers(500, compte2);
+		compte1.transfererVers(1500, compte2);
 		//Différence des soldes
 		System.out.println("------------------");
 		double diffSolde = compte1.differenceSoldes(compte2);

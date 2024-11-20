@@ -49,8 +49,5 @@ public class Compte {
 			}
 		}
 	}
-	public double differenceSoldes(Compte c) {
-		return Math.abs(this.solde-c.solde);
-	}
-	//permutation de deux compte c1 et c2
+
 }

@@ -45,12 +45,9 @@ public class Compte {
 				System.out.println("Solde insuffisant pour transfert du montant de "+mt+" DH demander.");
 				System.out.println("Vous avez "+this.solde+" DH dans votre compte.");
 			}else{
-				System.out.println("Montant invalide pour le transfert ou solde insuffisant.");
+				System.out.println("Montant invalide pour le transfert.");
 			}
 		}
 	}
-	public double differenceSoldes(Compte c) {
-		return Math.abs(this.solde-c.solde);
-	}
-	//permutation de deux compte c1 et c2
+
 }

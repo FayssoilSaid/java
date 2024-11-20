@@ -25,11 +25,9 @@ public class TestCompte {
 		compte1.retirer(500);
 		//Transfert
 		System.out.println("------------------");
-		compte1.transfererVers(500, compte2);
+		compte1.transfererVers(1500, compte2);
 		//Différence des soldes
 		System.out.println("------------------");
-		double diffSolde = compte1.differenceSoldes(compte2);
-		System.out.println("La diffrence de solde de compte "+compte1.numero+" et de compte "+compte2.numero+" est: "+diffSolde);
 		//Permutation des comptes
 		System.out.println("------------------");
 		//Afficher les comptes après permutation
