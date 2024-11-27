@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value=""/>
+		<item key="selection" value="public SystemeSolaire(Planete[] tP) {"/>
 		<list key="findhistory">
+			<item value="public SystemeSolaire(Planete[] tP) {"/>
 			<item value="public B1() {"/>
 		</list>
 	</section>

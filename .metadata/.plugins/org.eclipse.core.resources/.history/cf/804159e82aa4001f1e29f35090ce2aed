@@ -1,8 +1,0 @@
-package exercice2;
-
-class Vecteur3d {
-	double x,y,z;
-	public Vecteur3d() {
-		
-	}
-}

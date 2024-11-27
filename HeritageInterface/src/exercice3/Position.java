@@ -45,7 +45,6 @@ public class Position {
 }
 
 class Robot extends Position{
-	Position pos;
 	String nom;
 	private String dir;//"Nord","Est",Sud et "Ouest"
 	private int num;
@@ -58,21 +57,15 @@ class Robot extends Position{
 		this.num = ++cpt;
 	}
 	
-	public Robot(Position pos, String nom, String dir) {
-		this.pos = pos;
+	public Robot(String nom, String dir) {
 		this.nom = nom;
 		this.dir = dir;
+		this.num=++cpt;
 	}
 	
 	public void afficher() {
 		System.out.println("Propriété du robot numéro:"+this.num);
-		System.out.println("Nom: "+this.nom);
-		if(this.pos != null) {
-			System.out.println("Position: ("+this.pos.getX()+","+this.pos.getY()+")");
-		}else {
-			System.out.println("Position: ("+super.getX()+","+super.getY()+")");
-		}
-		System.out.println("Direction: "+this.dir);
+		System.out.println("Nom: "+this.nom);	
 	}
 	
 	public String getDir() {
@@ -82,4 +75,9 @@ class Robot extends Position{
 	public void setDir(String dir) {
 		this.dir = dir;
 	}
+}
+
+class RobotNG{
+	final int N=5;
+	Robot[] t=new Robot[N];
 }
