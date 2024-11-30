@@ -30,9 +30,18 @@ public class TestCompte {
 		System.out.println("------------------");
 		double diffSolde = compte1.differenceSoldes(compte2);
 		System.out.println("La diffrence de solde de compte "+compte1.numero+" et de compte "+compte2.numero+" est: "+diffSolde);
+		//Afficher les comptes avant permutation
+		System.out.println("------------------");
+		compte1.afficher();
+		System.out.println("------------------");
+		compte2.afficher();
 		//Permutation des comptes
+		Compte.permuterCompte(compte1, compte2);
 		System.out.println("------------------");
 		//Afficher les comptes après permutation
+		compte1.afficher();
+		System.out.println("------------------");
+		compte2.afficher();
 
 	}
 

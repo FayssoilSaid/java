@@ -1,9 +1,9 @@
 package exercice5;
 
 public class Compte {
-	private double solde;
-	private Client proprietaire;
-	private static int compteur=0;
+	 double solde;
+	 Client proprietaire;
+	 static int compteur=0;
 	int numero;
 	public Compte(double solde,Client proprietaire) {
 		this.solde=solde;
@@ -53,4 +53,21 @@ public class Compte {
 		return Math.abs(this.solde-c.solde);
 	}
 	//permutation de deux compte c1 et c2
+    public static void permuterCompte(Compte c1,Compte c2) {
+    	double s=c1.solde;
+    	String nom=c1.proprietaire.getNom();
+    	String cin=c1.proprietaire.getCin();
+    	int num=c1.numero;
+    	
+    	c1.solde=c2.solde;
+    	c1.proprietaire.setNom(c2.proprietaire.getNom());
+    	c1.proprietaire.setCin(c2.proprietaire.getCin());
+    	//c1.numero=c2.numero;
+    	
+    	c2.solde=s;
+    	c2.proprietaire.setNom(nom);
+    	c2.proprietaire.setCin(cin);
+    	//c2.numero=num;
+    	
+    }
 }
